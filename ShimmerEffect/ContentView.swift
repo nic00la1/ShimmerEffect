@@ -10,12 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ShimmerEffect()
         }
-        .padding()
+        .background(.black)
+    }
+    
+    @ViewBuilder
+    private func ShimmerEffect() -> some View {
+        VStack {
+            HStack {
+                ShimmerView()
+                    .cornerRadius(30)
+                    .frame(width: 60, height: 60)
+                
+            }
+        }
     }
 }
 
