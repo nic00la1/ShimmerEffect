@@ -18,7 +18,7 @@ struct ShimmerView: View {
     ]
     
     var body: some View {
-        LinearGradient(colors: gradientColors, startPoint: .leading, endPoint: .trailing)
+        LinearGradient(colors: gradientColors, startPoint: startPoint, endPoint: endPoint)
             .onAppear() {
                 withAnimation(.easeInOut(duration: 1).repeatForever(autoreverses:false)) {
                     startPoint = .init(x: 1, y:1)
