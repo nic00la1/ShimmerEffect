@@ -11,6 +11,7 @@
 		B3F8085D2B5C80EA00E92AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8085C2B5C80EA00E92AB0 /* ContentView.swift */; };
 		B3F8085F2B5C80EB00E92AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F8085E2B5C80EB00E92AB0 /* Assets.xcassets */; };
 		B3F808622B5C80EB00E92AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F808612B5C80EB00E92AB0 /* Preview Assets.xcassets */; };
+		B3F808692B5C811500E92AB0 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F808682B5C811500E92AB0 /* ShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B3F8085C2B5C80EA00E92AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F8085E2B5C80EB00E92AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F808612B5C80EB00E92AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3F808682B5C811500E92AB0 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B3F8085C2B5C80EA00E92AB0 /* ContentView.swift */,
 				B3F8085E2B5C80EB00E92AB0 /* Assets.xcassets */,
 				B3F808602B5C80EB00E92AB0 /* Preview Content */,
+				B3F808682B5C811500E92AB0 /* ShimmerView.swift */,
 			);
 			path = ShimmerEffect;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F808692B5C811500E92AB0 /* ShimmerView.swift in Sources */,
 				B3F8085D2B5C80EA00E92AB0 /* ContentView.swift in Sources */,
 				B3F8085B2B5C80EA00E92AB0 /* ShimmerEffectApp.swift in Sources */,
 			);
