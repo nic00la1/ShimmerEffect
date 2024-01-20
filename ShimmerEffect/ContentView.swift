@@ -11,7 +11,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ShimmerEffect()
+            ShimmerEffect()
+            ShimmerEffect()
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
         .background(.black)
     }
     
@@ -23,7 +27,18 @@ struct ContentView: View {
                     .cornerRadius(30)
                     .frame(width: 60, height: 60)
                 
+                VStack {
+                    ShimmerView()
+                        .cornerRadius(5)
+                        .frame( height: 20)
+                    ShimmerView()
+                        .cornerRadius(5)
+                        .frame( height: 20)
+                }
             }
+            ShimmerView()
+                .cornerRadius(5)
+                .frame( height:150)
         }
     }
 }
